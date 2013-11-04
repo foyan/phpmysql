@@ -1,0 +1,14 @@
+    table {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+    }
+    td, th {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    th {
+        border-bottom: 1px solid black;
+    }
