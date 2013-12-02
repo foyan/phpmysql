@@ -53,3 +53,37 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/public_html/Veranstaltung12/trackstar/index.php?r=gii
 ---
+2013/12/02 18:47:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/public_html/Veranstaltung12/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/public_html/Veranstaltung12/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/public_html/Veranstaltung12/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/public_html/Veranstaltung12/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /var/www/public_html/Veranstaltung12/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/public_html/Veranstaltung12/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/public_html/Veranstaltung12/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost:8080/public_html/Veranstaltung12/trackstar/index.php?r=project/view&id=1
+---
+2013/12/02 18:47:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/public_html/Veranstaltung12/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/public_html/Veranstaltung12/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/public_html/Veranstaltung12/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/public_html/Veranstaltung12/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/public_html/Veranstaltung12/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/public_html/Veranstaltung12/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /var/www/public_html/Veranstaltung12/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/public_html/Veranstaltung12/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/public_html/Veranstaltung12/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost:8080/public_html/Veranstaltung12/trackstar/index.php?r=project/index
+---
